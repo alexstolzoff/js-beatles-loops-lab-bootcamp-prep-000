@@ -19,7 +19,7 @@ const facts = [
 function johnLennonFacts(facts){
   var stringArray = [];
   var i = 0;
-  while(i<5){
+  while(i<4){
     stringArray.push(`${facts[i]}!!!`);
     i++;
   }
