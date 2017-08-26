@@ -21,7 +21,7 @@ function johnLennonFacts(facts){
   var i = 0;
   while(i<5){
     stringArray.push(`${facts[i]}!!!`);
-    i--;
+    i++;
   }
   return stringArray;
 }
