@@ -20,7 +20,7 @@ function johnLennonFacts(facts){
   var stringArray = [];
   var i = facts.length;
   while(0<i){
-    stringArray.shift(`${facts[i]}!!!`);
+    stringArray.unshift(`${facts[i]}!!!`);
     i--;
   }
   return stringArray;
