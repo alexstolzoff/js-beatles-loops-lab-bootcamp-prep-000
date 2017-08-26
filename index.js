@@ -18,10 +18,10 @@ const facts = [
 
 function johnLennonFacts(facts){
   var stringArray = [];
-  var i = 0;
-  while(i<5){
+  var i = 5;
+  while(i>0){
     stringArray.push(`${facts[i]}!!!`);
-    i++;
+    i--;
   }
   return stringArray;
 }
